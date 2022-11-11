@@ -45,7 +45,7 @@ export default {
       @click="byName">
       이름순 정렬
     </TheButton>
-    <TheButton 
+    <TheButton
       color="primary"
       @click="byAge">
       나이순 정렬

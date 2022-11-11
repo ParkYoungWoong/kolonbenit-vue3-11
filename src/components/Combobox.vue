@@ -13,8 +13,8 @@ export default {
     }
   },
   methods: {
-    pushItem(event) {
-      this.$emit('update:modelValue', [...this.modelValue, event.target.value])
+    pushItem() {
+      this.$emit('update:modelValue', [...this.modelValue, this.itemText])
       this.itemText = ''
     },
     removeItem(index) {
@@ -35,7 +35,7 @@ export default {
     </div>
     <input
       v-bind="$attrs"
-      :value="itemText"
+      v-model="itemText"
       @change="pushItem" />
   </div>
 </template>
