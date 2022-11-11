@@ -1,0 +1,24 @@
+{
+  "name": "kolonbenit-vue3-11",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "nanoid": "^4.0.0",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "eslint": "^8.27.0",
+    "eslint-plugin-vue": "^9.7.0",
+    "sass": "^1.56.1",
+    "vite": "^3.2.3"
+  }
+}
