@@ -99,7 +99,7 @@ $ code . -r
 
 - 루트 경로에 있는 `vite.config.js` 파일을 다음과 같이 수정하세요.
 
-```jsx
+```js
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
@@ -118,7 +118,7 @@ export default defineConfig({
 
 - `/src` 폴더에 `data.js` 파일을 생성한 후 다음 코드를 붙여넣으세요!
 
-```jsx
+```js
 import { nanoid } from 'nanoid'
 
 export const users = [
@@ -136,13 +136,13 @@ export const users = [
 
 [https://omdbapi.com/](https://www.omdbapi.com/)
 
-```json
+```bash
 https://omdbapi.com/?apikey=7035c60c&s=frozen
 ```
 
 ## TheButton.vue
 
-```json
+```vue
 <script>
 export default {
   props: {
